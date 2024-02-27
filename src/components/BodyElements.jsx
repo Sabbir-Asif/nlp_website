@@ -8,7 +8,7 @@ const BodyElements = () => {
             </div>
             <div className="building-image">
                 <img src="/images/iit_du_building1.png" alt="iitdu-building-image"/>
-                <p>IITDU NLP Research Group</p>
+                <p>IIT,DU NLP Research Group</p>
             </div>
         </div>
     );

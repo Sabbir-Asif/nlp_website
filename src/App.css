@@ -9,6 +9,7 @@
     --gray: rgba(0, 0, 0, 0.71);
     --titleblue: rgba(0, 58, 170, 1);
     --iblue: rgba(38, 80, 127, 1);
+    --tailcolor: rgba(24, 96, 148, 0.98);
 }
 
 
@@ -24,7 +25,7 @@
 }
 
 .logo {
-  height: 76px;
+  height: 72px;
   width: 44px;
   margin-top: 25px;
   margin-left: 50px;
@@ -32,7 +33,7 @@
 
 nav {
     display: flex;
-    height: 80px;
+    height: 72px;
     align-items: center;
 }
 
@@ -45,7 +46,7 @@ nav ul {
 
 .body {
   display: flex;
-  height: 550;
+  height: calc(100vh - 72px - 180px);
   gap: 195px;
   width: auto;
   background: linear-gradient( rgba(176, 218, 248, 0.81), #ffffff);
@@ -89,5 +90,40 @@ nav ul {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: rgba(38, 80, 127, 1);
+}
+
+.tail {
+  background-color: var(--tailcolor);
+  width: auto;
+  height: 180px;
+}
+
+.tailcomponents {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.about {
+  margin-top: 2%;
+  margin-left: 3%;
+  line-height: 1.7;
+  max-width: 400px;
+}
+
+.links {
+  margin-top: 2%;
+  line-height: 1.5;
+  max-width: 140px;
+  list-style: none;
+}
+
+.contact {
+  margin-top: 2%;
+  margin-right: 3%;
+  line-height: 1.5;
+  max-width: 400px;
 }
 
