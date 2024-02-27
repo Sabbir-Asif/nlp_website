@@ -8,7 +8,7 @@ const Navigation = () => {
             <ul>
                 <li href="#"> GOAL</li>
                 <li href="#"> PUBLICATIONS</li>
-                <li href="#"> PROJECTS</li>
+                <li><a href="/images/projects.html">PROJECTS</a></li>
                 <li href="#"> BLOG</li>
                 <li href="#"> PEOPLE</li>
                 <li href="#"> EVENTS</li>

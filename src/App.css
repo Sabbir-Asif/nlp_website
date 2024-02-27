@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Odor+Mean+Chey&display=swap');
+
 :root {
     --red: #d01c28;
     --gray: rgba(0, 0, 0, 0.71);
@@ -42,6 +44,16 @@ nav ul {
     justify-content: center;
     list-style: none;
     gap: 45px;
+    text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  color: var(--iblue);
 }
 
 .body {
@@ -59,10 +71,10 @@ nav ul {
 }
 
 .title {
-  font-family: "Monoton", sans-serif;
+  font-family: "Odor Mean Chey", serif;
   font-size: 46px;
-  font-weight: 400;
-  color: var(--titleblue);
+  font-weight: 200;
+  color: var(--iblue);
 }
 
 .i-name {
