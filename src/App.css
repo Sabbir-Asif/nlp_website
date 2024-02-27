@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Monoton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --red: #d01c28;
     --gray: rgba(0, 0, 0, 0.71);
+    --titleblue: rgba(0, 58, 170, 1);
+    --iblue: rgba(38, 80, 127, 1);
 }
-body {
-  font-family: "Montserrat", sans-serif;
-}
+
 
 *{
     margin: 0;
@@ -16,6 +20,7 @@ body {
     max-width: device-width;
     margin-top: 0 auto;
     gap: 300px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .logo {
@@ -37,3 +42,52 @@ nav ul {
     list-style: none;
     gap: 45px;
 }
+
+.body {
+  display: flex;
+  height: 550;
+  gap: 195px;
+  width: auto;
+  background: linear-gradient( rgba(176, 218, 248, 0.81), #ffffff);
+  
+}
+
+.text {
+  margin-left: 100px;
+  margin-top: 180px;
+}
+
+.title {
+  font-family: "Monoton", sans-serif;
+  font-size: 46px;
+  font-weight: 400;
+  color: var(--titleblue);
+}
+
+.i-name {
+  font-family: "Brawler", serif;
+  color: var(--iblue);
+  font-size: 24px;
+}
+
+.description {
+  margin-top: 25px;
+  max-width: 465px;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.building-image {
+  margin-top: 120px;
+  margin-right: 100px;
+}
+
+.building-image p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: rgba(38, 80, 127, 1);
+}
+
